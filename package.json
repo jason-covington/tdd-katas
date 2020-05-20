@@ -19,7 +19,7 @@
   "main": "src/index.js",
   "scripts": {
     "build": ":",
-    "test": "xo 'src/**/*.js' && jest --coverage",
+    "test": "xo 'src/katas/**/*.js' && jest --coverage",
     "watch": "jest --watch",
     "release": ":"
   },
@@ -33,7 +33,7 @@
   "jest": {
     "roots": [
       "<rootDir>/node_modules/",
-      "<rootDir>/src/"
+      "<rootDir>/src/katas/"
     ],
     "resetMocks": true,
     "resetModules": true,

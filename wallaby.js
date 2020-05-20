@@ -9,12 +9,12 @@ module.exports = function () {
 
     files: [
       './package.json',
-      'src/**/*.js',
-      '!src/**/*.test.js'
+      'src/katas/**/*.js',
+      '!src/katas/**/*.test.js'
     ],
 
     tests: [
-      'src/**/*.test.js'
+      'src/katas/**/*.test.js'
     ],
 
     setup: (w) => {
